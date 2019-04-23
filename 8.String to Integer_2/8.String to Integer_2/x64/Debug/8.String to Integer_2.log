@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\leetcode\8.string to integer_2\8.string to integer_2\main.cpp(13): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  8.String to Integer_2.vcxproj -> D:\LeetCode\8.String to Integer_2\x64\Debug\8.String to Integer_2.exe
+  8.String to Integer_2.vcxproj -> D:\LeetCode\8.String to Integer_2\x64\Debug\8.String to Integer_2.pdb (Full PDB)
