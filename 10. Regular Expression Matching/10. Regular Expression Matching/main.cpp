@@ -6,8 +6,7 @@ using namespace std;
 
 class Solution {
 public:
-	bool isMathch(string s, string p)
-	{
+	bool isMathch(string s, string p){
 		int m = s.size(), n = p.size();
 		vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
 		dp[0][0] = true;
@@ -26,11 +25,12 @@ public:
 };
 
 
+
 int main()
 {
 	Solution s;
-	string s1 = { "mississippi" };
-	string s2 = { "mis*is*p*." };
+	string s1 = { "a" };
+	string s2 = { "a*" };
 	cout<<s.isMathch(s1, s2);
 	return 0;
 }
